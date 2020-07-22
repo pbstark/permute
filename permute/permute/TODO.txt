@@ -1,0 +1,45 @@
+1. NSGK results
+- current tests has significant results and concordance is less than 1/2
+- is there a test that reveals scientifically significant results
+  as well as statistically significant
+
+2. Performance (Pythonic)
+- numba / Cython ? (Stefan)
+
+3. permuter scripts in pkg / building blocks
+- Ultimately want scripts in permute to test.  Are vignettes reusable?
+  - enumerate / (combinat from CSP.R)
+  - itertools.combinations       
+         
+4. two_sample
+- exact two-sample problem
+	- (use MacNell as example/test)
+	- see issue + gist
+- Write a vignette to show how this can be used to do rank tests, e.g. Wilcoxon
+
+5. k-sample tests
+- ks-like test statistic: combine ks for each pair of samples by max distance, sum of distances, npc...
+- Permutation ANOVA
+- other?
+
+6. n-dimensional k-sample
+- MST
+- LLQ
+- MDL (research topic)
+
+7. Association
+- Pearson
+- Spearman (replace data by their ranks in call to Pearson)
+- Regression ( null beta=0)
+
+8. Misc non-parametrics
+- Runs tests
+- Other kinds of symmetry
+- Romano-style projection
+
+9. Contingency tables
+- ecological fixed-margin tests 
+	- Stefan's data example - see issue
+	
+10. Nonparametric combination of tests
+- generalize the IRR NPC code

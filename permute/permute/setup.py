@@ -15,8 +15,8 @@ AUTHOR_EMAIL = 'permute@googlegroups.com'
 URL = 'http://statlab.github.io/permute/'
 LICENSE = 'BSD License'
 DOWNLOAD_URL = 'http://github.com/statlab/permute'
-VERSION = '0.1.alpha4'
-PYTHON_VERSION = (3, 7)
+VERSION = '0.1.alpha5'
+PYTHON_VERSION = (2, 7)
 
 INSTALL_REQUIRES = [
     'numpy',
@@ -69,9 +69,9 @@ if __name__ == "__main__":
             'Intended Audience :: Science/Research',
             'License :: OSI Approved :: BSD License',
             'Programming Language :: Python',
-            'Programming Language :: Python :: 3.6',
-            'Programming Language :: Python :: 3.7',
-            'Programming Language :: Python :: 3.8',
+            'Programming Language :: Python :: 2.7',
+            'Programming Language :: Python :: 3.4',
+            'Programming Language :: Python :: 3.5',
             'Topic :: Scientific/Engineering',
             'Operating System :: Microsoft :: Windows',
             'Operating System :: POSIX',
